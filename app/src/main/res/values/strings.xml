@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">app_locking</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_main">密码输入</string>
+    <string name="title_activity_passwd">更改密码</string>
+    <string name="title_activity_bactivity">Bactivity</string>
+</resources>

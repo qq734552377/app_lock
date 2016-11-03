@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="BtStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@drawable/round</item>
+        <item name="android:textColor">@drawable/bt_textcolor</item>
+
+
+    </style>
+    <style name="IvStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <!--  android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:background="@drawable/round"
+      android:textSize="25sp"-->
+    <style name="LoginBtStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/round</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/bt_textcolor</item>
+
+    </style>
+
+    <style name="PasswdTextViewStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:paddingRight">20dp</item>
+
+    </style>
+    <style name="PasswdEditTextStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:password">true</item>
+        <item name="android:background">@drawable/editsharp</item>
+    </style>
+
+
+
+
+
+    <style name="EditTextStyle">
+
+        <item name="android:background">@drawable/editsharp</item>
+    </style>
+
+
+</resources>
